@@ -65,4 +65,9 @@
          return name.substring(spacenachname);
      }
      
+     public String getNachnamevorname()
+     {
+         return getNachname()+ " " + getVorname();
+     }
+ 
 }
